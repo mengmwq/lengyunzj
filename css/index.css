@@ -1,0 +1,447 @@
+@charset "UTF-8";
+/*======creatBy mwq 2017/11/29======*/
+
+/*======================
+        Main Start
+=======================*/
+body{
+    margin:0;
+    padding:0;!important;
+}
+/*========= banner Start =========*/
+.main{
+    min-width:1200px;
+
+}
+.main .banner-wrap{
+    width:100%;
+    height:500px;
+}
+/*=== Banner-content Start ===*/
+.main .banner-wrap .banner{
+    height:100%;
+}
+.main .banner-wrap .banner .item{
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:none no-repeat center center/cover;
+    -webkit-transition:opacity 1s;
+    -moz-transition:opacity 1s;
+    -o-transition:opacity 1s;
+    transition:opacity 1s;
+}
+.main .banner-wrap .banner .item.active{
+    opacity:1;
+    z-index:1;
+}
+.main .banner-wrap .banner .item1{
+    background-image:url("../img/1.png");
+}
+.main .banner-wrap .banner .item1 .b-font{
+    position: absolute;
+    top: 58px;
+    /* bottom: 310px; */
+    width: 300px;
+    height: 120px;
+    /* margin: auto; */
+    left:794px;
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+}
+.main .banner-wrap .banner .b-concent {
+    position: absolute;
+    top: 162px;
+    right: 584px;
+}
+.main .banner-wrap .banner  .b-concent .b-concent-l{
+    font-size: 60px;
+    color:#ffffff;
+}
+.main .banner-wrap .banner  .b-concent .b-concent-b{
+    color: #ffffff;
+    font-size: 22px;
+    padding: 44px;
+    text-indent: 23px;
+}
+.main .line-border{
+    border: 19px solid red;
+    width: 1px;
+    height: 1px;
+/* text-align: center; */
+    margin: 0 auto;
+    border-bottom: transparent;
+    width: 0;
+    height: 0;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #333 transparent transparent;
+/* margin: 40px auto; */
+    position: relative;
+}
+/*=== Banner-content End ===*/
+
+
+
+/*========= 公司简介Case Start =========*/
+.main .case-wrap{
+    position:relative;
+    width:100%;
+    background:url('../img/case-bg.png') no-repeat 0 0/cover;
+    top:-35px;
+    min-height: 800px;
+    overflow: hidden;
+
+}
+
+.main .case-wrap .gs-content {
+    width: 978px;
+    min-height: 280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.main .case-wrap .gs-content li {
+    line-height: 30px;
+}
+/*=========公司简介 Case End =========*/
+
+/*========= 产品与服务Product Start =========*/
+
+.main .Product-wrap{
+    position:relative;
+    width:100%;
+    min-height: 650px;
+    overflow: hidden;
+    top:-35px;
+    background-color:#cccccc;
+}
+.main .Product-wrap .product-c{
+    width: 1200px;
+    margin:0 auto;
+    height: auto;
+}
+.main .Product-wrap  .product-c-c{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 22px 26px;
+    width: 500px;
+    height:174px;
+    margin: 22px;
+}
+.main .Product-wrap  .product-c-c ul li{
+    list-style-type: initial;
+    font-size: 14px;
+    font-weight: 200;
+
+}
+.main .Product-wrap .product-c-c ul li:active,
+.main .Product-wrap .product-c-c ul li:hover{
+    color:#349afb;
+    cursor: pointer;
+    text-decoration: underline;!important;
+}
+
+/*.main .Product-wrap .product-c-c ul li:hover{
+    color:#349afb;
+}*/
+.main .Product-wrap  .product-c-c ul{
+    padding-left: 43px;
+    line-height: 22px;
+    margin-top: 10px;
+}
+.main .Product-wrap  .product-c-c p.wd {
+    font-weight: 700;
+    font-family: inherit;
+    font-size: 22px;
+}
+.main .Product-wrap  .product-c-c .p-t-t p {
+    color: #555;
+    font-size: 13px;
+}
+.main .Product-wrap  .product-c-c .p-c-c ul li{
+    padding:3px;
+}
+.main .Product-wrap  .product-c-c .p-c-c ul li:active{
+    text-decoration: underline;
+    cursor: pointer;
+    color:#349afb;
+
+}
+.main .Product-wrap  .product-c-c .p-c-c ul li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:#349afb;
+
+}
+
+/*========= 产品与服务Product End =========*/
+
+
+/*========= 解决方案开始 solution Start =========*/
+.main .solution-wrap{
+    min-height: 600px;
+    overflow: hidden;
+    position:relative;
+    width:100%;
+    top:-35px;
+    background:url('../img/case-bg.png') no-repeat 0 0/cover;
+}
+li.slh {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    color:#777;
+    line-height: 30px;
+}
+p.firstWeight {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: inherit;
+}
+.main .solution-wrap .solution-c{
+    width: 1200px;
+    margin:0 auto;
+    height: 300px;
+    margin-top: 27px;
+    overflow: hidden;
+}
+.main .solution-wrap  .solution-c-c{
+    background: #fff;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: 3px;
+    box-shadow: none;
+    padding: 22px 26px;
+    width: 600px;
+    min-height: 127px;
+    margin-right: 22px;
+}
+.main .solution-wrap .tp.img img {
+    margin-right: 20px;
+}
+.main .solution-wrap  .solution-c-c div:hover,
+.main .solution-wrap  .solution-c-c div:active{
+    text-decoration: underline;
+    cursor: pointer;
+    color:#349afb;
+
+
+}
+/*========= 解决方案solution End =========*/
+
+
+
+/*========= ShowCenter start =========*/
+p.showcenter-t.center {
+    font-size: 21px;
+    color: #ccc;
+    margin: 9px;
+}
+.ShowCenter-wrap  .product-c-c img.margin {
+    padding-right: 17px;
+}
+
+/*========= ShowCenter End =========*/
+
+
+/*========= 下载中心LoadingCenter start =========*/
+.main .LoadingCenter-wrap{
+    position:relative;
+    min-height:800px;
+    top:-35px;
+    width: 100%;
+    margin:0 auto;
+    background-color: #ccc;
+    overflow: hidden;
+}
+
+.main .loadingCenter{
+    width: 350px;
+}
+.loadingCenter .ditu{
+    width: 350px;
+}
+.loadingCenter.product-c-c.fl-l {
+    margin: 20px;
+}
+.loadingCenter.product-c-c .p-t-t {
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.loadingCenter.product-c-c .loading-t-p{
+    margin-bottom:20px;
+    position: relative;
+}
+p.center.margin1 {
+    font-size: 14px;
+}
+p.center.margin1.fontSize {
+    font-size: 18px;
+}
+.loadings.fl-l img{
+    float: left;
+    margin: 9px 9px;
+}
+img.bqsButton {
+    position: relative;
+    right: 105px;
+}
+.loadings.fl-l {
+    position: absolute;
+    right: 15px;
+    bottom: 0;
+}
+/*========= 下载中心LoadingCenter End =========*/
+
+/*========= 行业资讯InformationCenter start =========*/
+.InformationCenter-wrap{
+    position:relative;
+    min-height:500px;
+    top:-35px;
+    width: 100%;
+    margin:0 auto;
+    background-color: #ffffff;
+    overflow: hidden;
+    top:-35px;
+
+}
+.InformationBar.fl-l.border {
+    width: 700px;
+}
+.InformationBar.fl-l.border {
+    width: 700px;
+    margin-left: 372px;
+    margin-right:74px;
+}
+img.InformationTp {
+    width: 350px;
+}
+.solution1-c-c {
+    margin-top: 47px;
+}
+/*=========行业资讯 InformationCenter End =========*/
+
+/*========= ParentsCenter start =========*/
+.ParentsCenter-wrap {
+    position: relative;
+    min-height: 500px;
+
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+
+    background-color: #e7ebee;
+}
+.parentsCenter{
+    width: 1200px;
+    margin: 50px auto;
+}
+
+.parentsCenter input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+a.aSpersice {
+    text-decoration: normal;
+    text-decoration-line: underline;
+    color: blue;
+}
+input#pw{
+    margin: 10px 0px;
+}
+/*========= 合作伙伴ParentsCenter End =========*/
+
+/*========= 联系我们contact Centerstart =========*/
+.contactCenter-wrap{
+    position: relative;
+    min-height: 600px;
+    top: -35px;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    top: -35px;
+    background-color: #cccccc;
+}
+.contact-r.mmr {
+    float: left;
+    width: 245px;
+}
+.contact-r.mmr ul li > div {
+    float: left;
+    width: 200px;
+    line-height: 25px;
+}
+.contact-r.mmr ul li {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.contact-r.mmr  div {
+    color: #000;!important;
+    width: 100%;
+}
+.contactCenter-wrap .contact-r.mmr img{
+    float: left;
+    margin-top: 6px;
+    margin-right: 18px;
+}
+
+.tjtjtjtjtj{
+    width: 100px;
+    height: 58px;
+    background-color: #349afb;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 25px;
+}
+/*========= 联系我们contact CenterEnd =========*/
+
+
+/*========= footerCenter strat =========*/
+
+.footerCenter-wrap{
+    position: relative;
+    background-color: #e7eaed;
+    min-height: 100px;
+    overflow: hidden;
+    top: -35px;
+    width: 100%;
+}
+p.weibo {
+    background: url(../img/gongzhonghao.png) no-repeat;
+    height: 100px;
+    background-position: center;
+    width: 100px;
+
+}
+.footer.auto {
+    margin: 60px auto;
+
+}
+.tpcenter.fl-l {
+    position: relative;
+    left: 374px;
+    margin: 0 60px;
+}
+/*========= footerCenter end =========*/
+
+
+
+
+/*========= bootstrap start =========*/
+h4#myModalLabel2{
+    text-align: center;
+}
+div#centerPadding {
+    padding: 20px 0;
+}
+
+
+
+/*========= bootstrap end=========*/
