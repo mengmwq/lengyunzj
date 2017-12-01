@@ -20,6 +20,7 @@ var showPageController = function (){
     }
     this.regEvent = function(){
         that.headerTitleClick();
+        that.checkInputClick();
 
     }
     this.headerTitleClick = function(){
@@ -32,7 +33,29 @@ var showPageController = function (){
 
         })
     }
+    this.checkInputClick = function () {
+        var $btn_submit = $("#btn_submit")
+        var $user_name = $("#name");
+        var $user_email = $("#email");
+        var $userNull = $(".userNull")
+        var $emailNull = $(".emailNull")
+        $btn_submit.on("click",function(){
+            if ($user_name.val() == "") {
+                $userNull.show()
+            }else{
+                $userNull.hide()
+            }
+            if ($user_email.val() == "") {
+                $emailNull.show()
+            }else{
+                $emailNull.hide()
+            }
 
+
+        })
+
+
+    }
 
 
 }
